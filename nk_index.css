@@ -1,0 +1,226 @@
+@charset "utf-8";
+
+
+
+/* Body Styles */
+body {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1060px;
+	min-width: 640px;
+	width: 95%;
+	height:auto;
+}
+
+
+/* Body Header Styles */
+body > header > img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	width: 70%;
+}
+
+body > header > nav.horizontalNavigation li {
+	width: 24.5%;
+}
+
+
+
+
+/* Horizontal Navigation Styles */
+nav.horizontalNavigation li {
+	display: inline-block;
+}
+nav.horizontalNavigation a{
+	display: block;
+	text-align: center;
+}
+
+
+/* Left Column Styles */
+#page1 > body > section#leftColumn {
+	clear: left;
+	float: left;
+	padding: 1.5em;
+	width: 33%;
+}
+#page2 > body >section#leftColumn {
+	height:1050px;
+	clear: left;
+	float: left;
+	padding: 1.5em;
+	width: 46%;
+} 
+#page3 > body >section#leftColumn {
+	height:500px;
+	clear: left;
+	float: left;
+	padding: 1.5em;
+	width: 46%;
+}
+#page4 >section#leftColumn {
+	height:600px;
+	clear: left;
+	float: left;
+	padding: 1.5em;
+	width: 95%;
+} 
+
+
+
+/* Right Column Styles */
+#page1 > body >section#rightColumn {
+	
+	float: left;
+	width: 67%;
+}
+#page1 > body >section#rightColumn img {
+	display: block;
+	width: 100%;
+}
+#page1 > body >section#rightColumn > nav.horizontalNavigation li {
+	width: 25%;
+}
+#page2 > body >section#rightColumn {
+	
+	height: 1050px;
+	clear:right;
+	float: right;
+	width: 46%;
+	padding: 1.5em;
+}
+#page2 > body >section#rightColumn img {
+	width:90%;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+#page2 > body >section#rightColumn > nav.horizontalNavigation li {
+	width: 25%;
+}
+
+#page3 > body >section#rightColumn {
+	
+	height: 500px;
+	clear:right;
+	float: right;
+	width: 46%;
+	padding: 1.5em;
+}
+#page4 >section#rightColumn  {
+	
+	height: 1475px;
+	clear:right;
+	float: right;
+	width: 95%;
+	padding: 1.5em;
+}
+#page4 >section#rightColumn > nav.horizontalNavigation li {
+	width: 25%;
+}
+
+
+/* Calendar Styles */
+#calendar {
+	width: 100%;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  clear: right;
+}
+
+#calendar tr, #calendar tbody {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+ width: 100%;
+}
+
+#calendar > caption {
+  text-align: center;
+  grid-column: 1 / -1;
+  font-size: 130%;
+  font-weight: bold;
+  padding: 10px 0;
+  background-color:rgb(192, 232, 249); 
+}
+
+#calendar td, #calendar th {
+	padding: 5px;
+	box-sizing:border-box;
+	border: 1px solid #ccc;
+}
+
+#calendar .weekdays {
+	background: rgb(199, 170, 133);  
+}
+
+
+#calendar .weekdays th {
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 20px;
+	border: none;
+	padding: 10px 6px;
+	color: rgb(186, 0, 0);
+	font-size: 13px;
+}
+
+#calendar td {
+	min-height: 180px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+#calendar .date {
+	text-align: center;
+	margin-bottom: 5px;
+	padding: 4px;
+	color: rgb(186, 0, 0);
+	width: 20px;
+}
+
+#calendar .event {
+	flex:  auto;
+	font-size: 13px;
+	border-radius: 4px;
+	padding: 5px;
+	margin-bottom: 5px;
+	line-height: 14px;
+	background: rgb(199, 170, 133);
+	color: rgb(186, 0, 0);
+	text-decoration: none;
+}
+
+#calendar  .event-desc {
+	color: rgb(186, 0, 0);
+	margin: 3px 0 7px 0;
+	text-decoration: none;	
+}
+
+
+/* Footer Styles */
+footer{
+	clear: center;
+	background-color: rgb(116, 179, 206);
+	clear: left;
+}
+section#socials{
+	float: left;
+	width: 50%;
+	background-color: rgb(116, 179, 206);
+	height:175px;
+}
+section#contactInfo {
+	float: Right;
+	width: 50%;
+	text-align:Right;
+	background-color: rgb(116, 179, 206);
+	height:175px;
+}
+Footer::after {
+	clear: both;
+	display: table;
+}
+

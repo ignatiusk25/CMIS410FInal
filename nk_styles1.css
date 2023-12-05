@@ -1,0 +1,165 @@
+@charset "utf-8";
+
+@font-face {
+	font-family: Champagne;
+	src: url(cac_champagne.woff) format('woff'),
+	     url(cac_champagne.ttf) format('ttf');
+}
+
+
+/* HTML and Body Styles */
+
+
+html {
+   background-color: rgb(199, 170, 133);
+   font-family: bakersville, serif; 	
+}
+
+body {
+   background-color: rgb(186, 0, 0);  
+}
+
+
+/* Horizontal Navigation Styles */
+
+nav.horizontalNavigation a {
+   background-color: rgb(54, 69, 79);
+   color: rgb(255, 255, 255);
+   font-family: bakersville, serif;
+   font-size: 1.4em;
+   line-height: 1.8em;
+   text-align: center;
+}  
+
+nav.horizontalNavigation a:link, 
+nav.horizontalNavigation a:visited {
+   color: rgb(255, 255, 255);
+}
+
+nav.horizontalNavigation a:hover, 
+nav.horizontalNavigation a:active {
+   background-color: rgb(199, 170, 133);
+}   
+
+
+/* Left & Right Column Paragraph Styles */
+
+#page1 > body >section#leftColumn p {
+   color: rgb(0, 0, 0);
+   font-size: 1.25em;
+   line-height: 1.6em;
+}
+
+#page2 > body > section#leftColumn {
+   color: rgb(0, 0, 0);
+   background-color: rgb(192, 232, 249);
+   font-size: 1.25em;
+   line-height: 1.6em;
+   margin:1em;
+}
+#page2 > body > section#leftColumn p{
+	margin:1em;
+}
+#page2 > body > section#leftColumn h1{
+	padding:-.5em;
+}
+#page2 > body > section#rightColumn  {
+   color: rgb(0, 0, 0);
+   background-color: rgb(192, 232, 249);
+   font-size: 1.25em;
+   line-height: 1.6em;
+   margin:1em;
+}
+#page2 > body > section#rightColumn p{
+margin:1em;
+}
+#page3 > body > section#leftColumn {
+   color: rgb(0, 0, 0);
+   background-color: rgb(192, 232, 249);
+   font-size: 1.25em;
+   line-height: 1.6em;
+   margin:1em;
+}
+#page3 > body >section#leftColumn p{
+	margin:1em;
+	font-style:italic;
+}
+#page3 > body >section#leftColumn h1{
+	padding:-.5em;
+}
+#page3 > body >section#rightColumn  {
+   color: rgb(0, 0, 0);
+   background-color: rgb(192, 232, 249);
+   font-size: 1.25em;
+   line-height: 1.6em;
+   margin:1em;
+}
+#page3 > body >section#rightColumn p{
+	margin:1em;
+}
+#page3 > body >section#rightColumn h1{
+	text-align:center;
+	font-size: 1.25em;
+}
+#page4 > body > section#leftColumn {
+   color: rgb(0, 0, 0);
+   background-color: rgb(192, 232, 249);
+   font-size: 1.25em;
+   line-height: 1.6em;
+   margin:1em;
+}
+#page4 > body > section#leftColumn p{
+	margin:1em;
+}
+#page4 > body > section#leftColumn h1{
+	padding:-.5em;
+}
+#page4 > body > section#rightColumn  {
+   color: rgb(0, 0, 0);
+   background-color: rgb(116, 179, 206);
+   font-size: 1.25em;
+   line-height: 1.6em;
+   margin:1em;
+}
+#page4 > body > section#rightColumn p{
+margin:1em;
+}
+/* Footer Styles */
+
+body > footer {
+   font-size: 0.9em;
+   color: rgb(0, 0, 0);
+}
+
+body > footer h1 {
+   color: rgb(0, 0, 0);
+   font-size: 1.1em;
+   font-weight: normal;
+   letter-spacing: 0.3em;
+   margin: 1em 0 0.5em 1em;
+}
+
+/* Vertical Navigation Styles */
+
+section#socials ul {
+   margin-left: 1em;
+   line-height: 2em;
+}
+
+section#socials a:link, 
+section#socials a:visited {
+   color: rgb(0, 0, 0);
+}
+
+section#socials a:hover, 
+section#socials a:active {
+   text-decoration: underline;
+}
+
+/* Contact Info Styles */
+
+section#contactInfo p {
+   line-height: 1.4em;
+   margin: 1em;
+}   
+
