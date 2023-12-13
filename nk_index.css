@@ -52,14 +52,14 @@ nav.horizontalNavigation a{
 	padding: 1.5em;
 	width: 46%;
 } 
-#page3 > body >section#leftColumn {
+#page3 > body > div > section#leftColumn {
 	height:500px;
 	clear: left;
 	float: left;
 	padding: 1.5em;
 	width: 46%;
 }
-#page4 >section#leftColumn {
+#page4 > div >section#leftColumn {
 	height:600px;
 	clear: left;
 	float: left;
@@ -94,7 +94,7 @@ nav.horizontalNavigation a{
 	width: 25%;
 }
 
-#page3 > body >section#rightColumn {
+#page3 > body > div >section#rightColumn {
 	
 	height: 500px;
 	clear:right;
@@ -102,7 +102,7 @@ nav.horizontalNavigation a{
 	width: 46%;
 	padding: 1.5em;
 }
-#page4 >section#rightColumn  {
+#page4 > div >section#rightColumn  {
 	
 	height: 1475px;
 	clear:right;
@@ -110,7 +110,7 @@ nav.horizontalNavigation a{
 	width: 95%;
 	padding: 1.5em;
 }
-#page4 >section#rightColumn > nav.horizontalNavigation li {
+#page4 > div > section#rightColumn > nav.horizontalNavigation li {
 	width: 25%;
 }
 

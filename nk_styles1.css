@@ -63,65 +63,65 @@ nav.horizontalNavigation a:active {
 #page2 > body > div >  section#leftColumn h1{
 	padding:-.5em;
 }
-#page2 > body > div >  section#rightColumn  {
+#page2 > body > div > section#rightColumn  {
    color: rgb(0, 0, 0);
    background-color: rgb(192, 232, 249);
    font-size: 1.25em;
    line-height: 1.6em;
    margin:1em;
 }
-#page2 > body > div >  section#rightColumn p{
+#page2 > body > div >section#rightColumn p{
 margin:1em;
 }
-#page3 > body > section#leftColumn {
+#page3 > body > div > section#leftColumn {
    color: rgb(0, 0, 0);
    background-color: rgb(192, 232, 249);
    font-size: 1.25em;
    line-height: 1.6em;
    margin:1em;
 }
-#page3 > body >section#leftColumn p{
+#page3 > body > div >section#leftColumn p{
 	margin:1em;
 	font-style:italic;
 }
-#page3 > body >section#leftColumn h1{
+#page3 > body > div >section#leftColumn h1{
 	padding:-.5em;
 }
-#page3 > body >section#rightColumn  {
+#page3 > body > div >section#rightColumn  {
    color: rgb(0, 0, 0);
    background-color: rgb(192, 232, 249);
    font-size: 1.25em;
    line-height: 1.6em;
    margin:1em;
 }
-#page3 > body >section#rightColumn p{
+#page3 > body > div >section#rightColumn p{
 	margin:1em;
 }
-#page3 > body >section#rightColumn h1{
+#page3 > body > div >section#rightColumn h1{
 	text-align:center;
 	font-size: 1.25em;
 }
-#page4 > body > section#leftColumn {
+#page4 > body > div >section#leftColumn {
    color: rgb(0, 0, 0);
    background-color: rgb(192, 232, 249);
    font-size: 1.25em;
    line-height: 1.6em;
    margin:1em;
 }
-#page4 > body > section#leftColumn p{
+#page4 > body > div > section#leftColumn p{
 	margin:1em;
 }
-#page4 > body > section#leftColumn h1{
+#page4 > body > div > section#leftColumn h1{
 	padding:-.5em;
 }
-#page4 > body > section#rightColumn  {
+#page4 > body > div > section#rightColumn  {
    color: rgb(0, 0, 0);
    background-color: rgb(116, 179, 206);
    font-size: 1.25em;
    line-height: 1.6em;
    margin:1em;
 }
-#page4 > body > section#rightColumn p{
+#page4 > body > div > section#rightColumn p{
 margin:1em;
 }
 /* Footer Styles */
