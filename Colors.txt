@@ -1,0 +1,5 @@
+rgb(186, 0, 0) red
+rgb(199, 170, 133) khaki
+rgb(54, 69, 79) charcol
+rgb(116, 179, 206) carolina
+rgb(192, 232, 249) columbia blue

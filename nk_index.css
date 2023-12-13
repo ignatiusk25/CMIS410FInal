@@ -14,7 +14,7 @@ body {
 
 
 /* Body Header Styles */
-body > header > img {
+body > header > a > img {
 	display: block;
     margin-left: auto;
     margin-right: auto;
@@ -39,13 +39,13 @@ nav.horizontalNavigation a{
 
 
 /* Left Column Styles */
-#page1 > body > section#leftColumn {
+#page1 > body > div > section#leftColumn {
 	clear: left;
 	float: left;
 	padding: 1.5em;
 	width: 33%;
 }
-#page2 > body >section#leftColumn {
+#page2 > body > div > section#leftColumn {
 	height:1050px;
 	clear: left;
 	float: left;
@@ -70,19 +70,19 @@ nav.horizontalNavigation a{
 
 
 /* Right Column Styles */
-#page1 > body >section#rightColumn {
+#page1 > body > div > section#rightColumn {
 	
 	float: left;
 	width: 67%;
 }
-#page1 > body >section#rightColumn img {
+#page1 > body > div > section#rightColumn > img {
 	display: block;
-	width: 100%;
+	width: 400px;
 }
-#page1 > body >section#rightColumn > nav.horizontalNavigation li {
+#page1 > body > div >section#rightColumn > nav.horizontalNavigation li {
 	width: 25%;
 }
-#page2 > body >section#rightColumn {
+#page2 > body > div > section#rightColumn {
 	
 	height: 1050px;
 	clear:right;
@@ -90,13 +90,7 @@ nav.horizontalNavigation a{
 	width: 46%;
 	padding: 1.5em;
 }
-#page2 > body >section#rightColumn img {
-	width:90%;
-	display:block;
-	margin-left:auto;
-	margin-right:auto;
-}
-#page2 > body >section#rightColumn > nav.horizontalNavigation li {
+#page2 > body > div > section#rightColumn > nav.horizontalNavigation li {
 	width: 25%;
 }
 
@@ -208,13 +202,13 @@ footer{
 }
 section#socials{
 	float: left;
-	width: 50%;
+	width: 49%;
 	background-color: rgb(116, 179, 206);
 	height:175px;
 }
 section#contactInfo {
 	float: Right;
-	width: 50%;
+	width: 49%;
 	text-align:Right;
 	background-color: rgb(116, 179, 206);
 	height:175px;
