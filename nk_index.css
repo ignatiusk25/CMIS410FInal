@@ -77,7 +77,7 @@ nav.horizontalNavigation a{
 }
 #page1 > body > div > section#rightColumn > img {
 	display: block;
-	width: 400px;
+	width: 100%;
 }
 #page1 > body > div >section#rightColumn > nav.horizontalNavigation li {
 	width: 25%;
